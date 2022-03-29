@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    
+}
+
+body{
+    background-color: lightseagreen;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.my_container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0,0,0.1);
+    margin: 50px;
+} 
+.my_container .left{
+    position: relative;
+    background-color: black;
+    padding: 40px;
+}
+.my_container .right{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255,0.2);
+}
+.profileText .imgBX{
+    position: relative;
+    width: 200px;
+    width: 200px;
+    
+    overflow: hidden;
+}
+.profileText .imgBX img{
+    position: relative;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+
+
+}
+.Text-name{
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4em;
+}
+ 
+.title{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: 300;
+}
+.contactInfo ul li .text{
+    color: #fff;
+}
+
+.contactEducation h5{
+    color: #03a9f4;
+}
+.contactEducation h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+    
+}
+.contactEducation h4{
+    color: #fff;
+    font-weight: 300;
+}
+.contactLanguage .percent{
+position: relative;
+background-color: #000;
+display: block;
+width: 100%;
+height: 6px;
+margin-top: 5px;
+}
+.contactLanguage .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #fff;
+}
+.contactInfo ul li .icon{
+    color: #03a9f4;
+    display: inline;
+    width: 30px;
+    margin-right: 10px;
+}
+.contactInfo ul li a{
+    text-decoration: none;
+    color: white;
+}
+.profileText span{
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.about{
+    margin-bottom: 50px;
+}
+
+.title2 {
+color: #003147;
+text-transform: uppercase;
+margin-bottom: 10px;
+letter-spacing: 1px;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company{
+ min-width: 150px;
+}
+
+.about .box .year_company h5{
+    text-transform: uppercase;
+color: #848c90;
+font-weight: 600;
+}
+.about .positive h4{
+    color: #2a7da2;
+    font-size: 16px;
+}
+.skill .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+
+}
